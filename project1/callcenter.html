@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Center Landing Page</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Welcome to Our Class Center</h1>
+            <p>Explore our courses and join us in learning something new!</p>
+        </div>
+    </header>
+
+    <section id="courses" class="section">
+        <div class="container">
+            <h2>Our Courses</h2>
+            <div class="course">
+                <h3>Introduction to Programming</h3>
+                <p>Learn the basics of programming with our comprehensive course.</p>
+                <p>Duration: 6 weeks | Fee: $200</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+            <div class="course">
+                <h3>Web Development Bootcamp</h3>
+                <p>Master web development with our intensive bootcamp program.</p>
+                <p>Duration: 12 weeks | Fee: $500</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+            <div class="course">
+                <h3>Data Science Fundamentals</h3>
+                <p>Dive into data science and analytics with our hands-on course.</p>
+                <p>Duration: 8 weeks | Fee: $300</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="schedule" class="section">
+        <div class="container">
+            <h2>Class Schedule</h2>
+            <table>
+                <tr>
+                    <th>Course</th>
+                    <th>Day</th>
+                    <th>Time</th>
+                </tr>
+                <tr>
+                    <td>Introduction to Programming</td>
+                    <td>Monday & Wednesday</td>
+                    <td>6:00 PM - 8:00 PM</td>
+                </tr>
+                <tr>
+                    <td>Web Development Bootcamp</td>
+                    <td>Tuesday & Thursday</td>
+                    <td>5:00 PM - 7:00 PM</td>
+                </tr>
+                <tr>
+                    <td>Data Science Fundamentals</td>
+                    <td>Friday</td>
+                    <td>4:00 PM - 6:00 PM</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <section id="registration" class="section">
+        <div class="container">
+            <h2>Registration</h2>
+            <p>To register for a course, please fill out the registration form:</p>
+            <form id="registrationForm" class="registration-form">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="course">Select Course</label>
+                    <select id="course" name="course" required>
+                        <option value="">Select a course...</option>
+                        <option value="Programming">Introduction to Programming</option>
+                        <option value="Web Development">Web Development Bootcamp</option>
+                        <option value="Data Science">Data Science Fundamentals</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
